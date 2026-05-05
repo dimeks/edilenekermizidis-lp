@@ -11,10 +11,21 @@
   }
   body {
     @apply bg-white text-[#0F172A] font-body antialiased selection:bg-accent selection:text-white;
-    background-color: white !important;
+    background-color: #FFFFFF !important;
     color: #0F172A !important;
     overflow-x: hidden;
   }
+}
+
+/* Force Light Mode - Anti-Dark Mode Hack */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light;
+  }
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
 }
 
 @layer utilities {
