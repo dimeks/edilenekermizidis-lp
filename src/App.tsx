@@ -120,7 +120,7 @@ const Navbar = () => {
           ))}
         </div>
         <div className="w-px h-5 bg-stroke mx-2 hidden sm:block shrink-0" />
-        <a href="https://wa.me/5524992311585?text=Ol%C3%A1%20Dra.%20Edilene!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" className="hidden sm:flex bg-accent hover:bg-[#1d4ed8] transition-colors rounded-full text-xs px-4 py-2 text-white font-medium items-center gap-1.5 shrink-0 shadow-[0_0_15px_rgba(37,99,235,0.3)] hover:shadow-[0_0_20px_rgba(37,99,235,0.5)]">
+        <a href="https://wa.me/5524992311585?text=Ol%C3%A1%20Edilene!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" className="hidden sm:flex bg-accent hover:bg-[#1d4ed8] transition-colors rounded-full text-xs px-4 py-2 text-white font-medium items-center gap-1.5 shrink-0 shadow-[0_0_15px_rgba(37,99,235,0.3)] hover:shadow-[0_0_20px_rgba(37,99,235,0.5)]">
           Agendar <ArrowUpRight className="w-3 h-3" />
         </a>
       </div>
@@ -141,7 +141,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0 hero-reveal">
         <img 
           src="/images/imag1.png" 
-          alt="Dra Edilene" 
+          alt="Edilene Kermizidis" 
           className="w-full h-full object-cover object-center md:object-[50%_20%] scale-[1.02]" 
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/50 to-transparent md:via-white/40 md:w-[60%]" />
@@ -163,7 +163,7 @@ const Hero = () => {
         </p>
 
         <div className="blur-in mt-2 flex flex-col sm:flex-row gap-4">
-          <a href="https://wa.me/5524992311585?text=Ol%C3%A1%20Dra.%20Edilene!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" className="bg-accent hover:bg-[#0a4d8f] text-white rounded-full text-sm md:text-base font-bold px-8 py-4 transition-all hover:-translate-y-1 shadow-[0_0_20px_rgba(13,94,175,0.4)] hover:shadow-[0_0_30px_rgba(13,94,175,0.6)] flex items-center justify-center gap-2 text-center w-full sm:w-auto">
+          <a href="https://wa.me/5524992311585?text=Ol%C3%A1%20Edilene!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" className="bg-accent hover:bg-[#0a4d8f] text-white rounded-full text-sm md:text-base font-bold px-8 py-4 transition-all hover:-translate-y-1 shadow-[0_0_20px_rgba(13,94,175,0.4)] hover:shadow-[0_0_30px_rgba(13,94,175,0.6)] flex items-center justify-center gap-2 text-center w-full sm:w-auto">
             AGENDAR CONSULTA <ArrowRight className="w-4 h-4" />
           </a>
         </div>
@@ -288,7 +288,7 @@ const Performance = () => {
                 </li>
               ))}
             </ul>
-            <a href="https://wa.me/5524992311585?text=Ol%C3%A1%20Dra.%20Edilene!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 bg-accent text-white font-bold px-6 py-3 rounded-full hover:bg-[#1d4ed8] transition-colors text-sm shadow-[0_0_15px_rgba(37,99,235,0.4)]">
+            <a href="https://wa.me/5524992311585?text=Ol%C3%A1%20Edilene!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 bg-accent text-white font-bold px-6 py-3 rounded-full hover:bg-[#1d4ed8] transition-colors text-sm shadow-[0_0_15px_rgba(37,99,235,0.4)]">
                Iniciar Acompanhamento <ArrowRight className="w-4 h-4" />
             </a>
           </motion.div>
@@ -313,7 +313,7 @@ const Sobre = () => {
             className="relative rounded-3xl overflow-hidden group aspect-square shadow-2xl border border-stroke order-1"
           >
             <div className="absolute inset-0 bg-accent/10 group-hover:bg-transparent transition-colors duration-700 z-10 mix-blend-overlay pointer-events-none" />
-            <img src="/images/imag3.png" alt="Dra Edilene" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000 ease-out" />
+            <img src="/images/imag3.png" alt="Edilene Kermizidis" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000 ease-out" />
           </motion.div>
 
           <motion.div 
@@ -328,20 +328,20 @@ const Sobre = () => {
               <span className="text-[10px] md:text-xs text-accent uppercase tracking-[0.3em] font-bold">A Profissional</span>
             </div>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-[#0F172A]">
-              Dra. <span className="font-display italic text-accent font-normal">Edilene</span>
+              Edilene <span className="font-display italic text-accent font-normal">Kermizidis</span>
             </h2>
             
             <div className="space-y-4 md:space-y-6 text-gray-800 text-sm md:text-base font-medium mb-8 border-l-2 border-accent pl-4 md:pl-6 bg-gradient-to-r from-blue-50 to-transparent py-2 rounded-r-lg">
               <p>
-                <strong>Psicóloga, Psicopedagoga e Terapeuta ABA</strong>, com vasta experiência no atendimento clínico e educacional, atuando no desenvolvimento infantil e no suporte a famílias atípicas.
+                <strong>Edilene Kermizidis</strong>, psicopedagoga e terapeuta ABA, com vasta experiência no atendimento clínico e educacional, atuando no desenvolvimento infantil e no suporte a famílias atípicas.
               </p>
               <p>
                 Também atua como Professora e Analista do Comportamento Aplicada ao Autismo (ABA), utilizando a ciência para construir pontes de comunicação, autonomia e inclusão, transformando desafios em grandes conquistas.
               </p>
             </div>
 
-            <a href="https://wa.me/5524992311585?text=Ol%C3%A1%20Dra.%20Edilene!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" className="inline-flex bg-accent hover:bg-[#1d4ed8] text-white rounded-full px-6 py-3 transition-all hover:-translate-y-1 shadow-[0_0_20px_rgba(37,99,235,0.4)] font-bold items-center gap-2 text-sm md:text-base w-full sm:w-auto justify-center">
-               Falar com a Dra. Edilene <ArrowRight className="w-4 h-4" />
+            <a href="https://wa.me/5524992311585?text=Ol%C3%A1%20Edilene!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" className="inline-flex bg-accent hover:bg-[#1d4ed8] text-white rounded-full px-6 py-3 transition-all hover:-translate-y-1 shadow-[0_0_20px_rgba(37,99,235,0.4)] font-bold items-center gap-2 text-sm md:text-base w-full sm:w-auto justify-center">
+               Falar com a Edilene Kermizidis <ArrowRight className="w-4 h-4" />
             </a>
           </motion.div>
         </div>
@@ -403,8 +403,8 @@ const Localizacao = () => {
 const Depoimentos = () => {
   const reviews = [
     { name: "Mariana Costa", text: "Excelente atendimento na clínica Inspire! Acolhimento impecável." },
-    { name: "Roberto Silva", text: "A Dra Edilene tem um cuidado incrível com as crianças. A terapia ABA mudou nossa rotina em casa." },
-    { name: "Fernanda Lima", text: "Melhor psicóloga que já fomos. Nosso filho se desenvolveu muito." },
+    { name: "Roberto Silva", text: "A Edilene tem um cuidado incrível com as crianças. A terapia ABA mudou nossa rotina em casa." },
+    { name: "Fernanda Lima", text: "Melhor profissional que já fomos. Nosso filho se desenvolveu muito." },
     { name: "Carlos Eduardo", text: "Ótima profissional, extremamente atenciosa e competente." },
     { name: "Patrícia Souza", text: "Acompanhamento impecável, super recomendo para qualquer família." },
     { name: "Ana Beatriz", text: "Profissional maravilhosa, com uma didática que as crianças amam." },
@@ -546,7 +546,7 @@ const Footer = () => {
         {/* Brand */}
         <div className="flex flex-col items-center md:items-start">
           <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center font-display italic text-2xl font-bold text-white mb-4">EK</div>
-          <h3 className="text-[#0F172A] text-lg font-bold mb-1">Dra. Edilene</h3>
+          <h3 className="text-[#0F172A] text-lg font-bold mb-1">Edilene Kermizidis</h3>
           <p className="text-gray-600 text-sm font-medium">Psicóloga & Terapeuta ABA</p>
         </div>
 
@@ -572,7 +572,7 @@ const Footer = () => {
       </div>
 
       <div className="max-w-[1200px] mx-auto px-6 md:px-10 lg:px-16 mt-16 pt-8 border-t border-stroke flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-600 font-medium">
-        <p>© {new Date().getFullYear()} Dra. Edilene Kermizidis. Todos os Direitos Reservados.</p>
+        <p>© {new Date().getFullYear()} Edilene Kermizidis. Todos os Direitos Reservados.</p>
         <p>Desenvolvido por: <span className="text-accent font-bold tracking-wide">DK Sistemas</span></p>
       </div>
     </footer>
