@@ -7,9 +7,12 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    color-scheme: light;
   }
   body {
     @apply bg-white text-[#0F172A] font-body antialiased selection:bg-accent selection:text-white;
+    background-color: white !important;
+    color: #0F172A !important;
     overflow-x: hidden;
   }
 }

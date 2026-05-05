@@ -109,7 +109,7 @@ const Navbar = () => {
       transition={{ duration: 0.35, ease: "easeInOut" }}
       className="fixed top-0 left-0 right-0 z-50 flex justify-center pt-4 md:pt-6 px-4"
     >
-      <div className={`inline-flex items-center rounded-full bg-white/90 backdrop-blur-md px-2 py-2 transition-all w-full md:w-auto overflow-x-auto no-scrollbar ${scrolled ? 'shadow-lg shadow-black/5 border border-stroke' : 'border border-stroke/50'}`}>
+      <div className={`inline-flex items-center rounded-full bg-white/90 backdrop-blur-md px-1.5 md:px-2 py-1.5 md:py-2 transition-all max-w-[95vw] md:w-auto overflow-x-auto no-scrollbar ${scrolled ? 'shadow-lg shadow-black/5 border border-stroke' : 'border border-stroke/50'}`}>
         <div className="min-w-[36px] w-9 h-9 rounded-full bg-accent flex items-center justify-center font-display italic text-[15px] font-bold text-white shadow-[0_0_10px_rgba(37,99,235,0.3)]">EK</div>
         <div className="w-px h-5 bg-stroke mx-2 shrink-0" />
         <div className="flex items-center space-x-1 shrink-0">
@@ -188,7 +188,7 @@ const Partners = () => {
       <div className="overflow-hidden">
         <div className="flex w-max marquee-left">
           {[...logos, ...logos, ...logos, ...logos].map((logo, i) => (
-             <img key={i} src={logo} alt="Plano/Convênio" className="h-6 sm:h-8 md:h-10 object-contain opacity-60 hover:opacity-100 transition-opacity duration-300 mix-blend-multiply mx-6 md:mx-12" />
+             <img key={i} src={logo} alt="Plano/Convênio" className="h-10 sm:h-14 md:h-16 object-contain opacity-60 hover:opacity-100 transition-opacity duration-300 mix-blend-multiply mx-8 md:mx-16" />
           ))}
         </div>
       </div>
@@ -449,13 +449,13 @@ const Depoimentos = () => {
         />
       </div>
 
-      <div className="relative z-10 flex flex-col gap-6 pb-8 group">
+      <div className="relative z-10 flex flex-col gap-6 pb-8 group touch-pan-y">
         <div className="absolute inset-y-0 left-0 w-16 md:w-32 bg-gradient-to-r from-white to-transparent z-20 pointer-events-none" />
         <div className="absolute inset-y-0 right-0 w-16 md:w-32 bg-gradient-to-l from-white to-transparent z-20 pointer-events-none" />
 
         {/* Row 1 — scroll left */}
-        <div className="overflow-hidden py-4">
-          <div className="flex w-max marquee-left group-hover:![animation-play-state:paused]">
+        <div className="overflow-x-auto no-scrollbar cursor-grab active:cursor-grabbing py-4">
+          <div className="flex w-max marquee-left group-hover:![animation-play-state:paused] group-active:![animation-play-state:paused]">
             {[...row1, ...row1, ...row1, ...row1].map((r, i) => (
               <ReviewCard key={`r1-${i}`} r={r} />
             ))}
@@ -463,8 +463,8 @@ const Depoimentos = () => {
         </div>
 
         {/* Row 2 — scroll right */}
-        <div className="overflow-hidden py-4">
-          <div className="flex w-max marquee-right group-hover:![animation-play-state:paused]">
+        <div className="overflow-x-auto no-scrollbar cursor-grab active:cursor-grabbing py-4">
+          <div className="flex w-max marquee-right group-hover:![animation-play-state:paused] group-active:![animation-play-state:paused]">
             {[...row2, ...row2, ...row2, ...row2].map((r, i) => (
               <ReviewCard key={`r2-${i}`} r={r} />
             ))}
