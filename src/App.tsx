@@ -120,7 +120,7 @@ const Navbar = () => {
           ))}
         </div>
         <div className="w-px h-5 bg-stroke mx-2 hidden sm:block shrink-0" />
-        <a href="https://wa.me/5524992311585" target="_blank" rel="noreferrer" className="hidden sm:flex bg-accent hover:bg-[#1d4ed8] transition-colors rounded-full text-xs px-4 py-2 text-white font-medium items-center gap-1.5 shrink-0 shadow-[0_0_15px_rgba(37,99,235,0.3)] hover:shadow-[0_0_20px_rgba(37,99,235,0.5)]">
+        <a href="https://wa.me/5524992311585?text=Ol%C3%A1%20Dra.%20Edilene!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" className="hidden sm:flex bg-accent hover:bg-[#1d4ed8] transition-colors rounded-full text-xs px-4 py-2 text-white font-medium items-center gap-1.5 shrink-0 shadow-[0_0_15px_rgba(37,99,235,0.3)] hover:shadow-[0_0_20px_rgba(37,99,235,0.5)]">
           Agendar <ArrowUpRight className="w-3 h-3" />
         </a>
       </div>
@@ -163,7 +163,7 @@ const Hero = () => {
         </p>
 
         <div className="blur-in mt-2 flex flex-col sm:flex-row gap-4">
-          <a href="https://wa.me/5524992311585" target="_blank" rel="noreferrer" className="bg-accent hover:bg-[#0a4d8f] text-white rounded-full text-sm md:text-base font-bold px-8 py-4 transition-all hover:-translate-y-1 shadow-[0_0_20px_rgba(13,94,175,0.4)] hover:shadow-[0_0_30px_rgba(13,94,175,0.6)] flex items-center justify-center gap-2 text-center w-full sm:w-auto">
+          <a href="https://wa.me/5524992311585?text=Ol%C3%A1%20Dra.%20Edilene!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" className="bg-accent hover:bg-[#0a4d8f] text-white rounded-full text-sm md:text-base font-bold px-8 py-4 transition-all hover:-translate-y-1 shadow-[0_0_20px_rgba(13,94,175,0.4)] hover:shadow-[0_0_30px_rgba(13,94,175,0.6)] flex items-center justify-center gap-2 text-center w-full sm:w-auto">
             AGENDAR CONSULTA <ArrowRight className="w-4 h-4" />
           </a>
         </div>
@@ -288,7 +288,7 @@ const Performance = () => {
                 </li>
               ))}
             </ul>
-            <a href="https://wa.me/5524992311585" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 bg-accent text-white font-bold px-6 py-3 rounded-full hover:bg-[#1d4ed8] transition-colors text-sm shadow-[0_0_15px_rgba(37,99,235,0.4)]">
+            <a href="https://wa.me/5524992311585?text=Ol%C3%A1%20Dra.%20Edilene!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 bg-accent text-white font-bold px-6 py-3 rounded-full hover:bg-[#1d4ed8] transition-colors text-sm shadow-[0_0_15px_rgba(37,99,235,0.4)]">
                Iniciar Acompanhamento <ArrowRight className="w-4 h-4" />
             </a>
           </motion.div>
@@ -340,7 +340,7 @@ const Sobre = () => {
               </p>
             </div>
 
-            <a href="https://wa.me/5524992311585" target="_blank" rel="noreferrer" className="inline-flex bg-accent hover:bg-[#1d4ed8] text-white rounded-full px-6 py-3 transition-all hover:-translate-y-1 shadow-[0_0_20px_rgba(37,99,235,0.4)] font-bold items-center gap-2 text-sm md:text-base w-full sm:w-auto justify-center">
+            <a href="https://wa.me/5524992311585?text=Ol%C3%A1%20Dra.%20Edilene!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noreferrer" className="inline-flex bg-accent hover:bg-[#1d4ed8] text-white rounded-full px-6 py-3 transition-all hover:-translate-y-1 shadow-[0_0_20px_rgba(37,99,235,0.4)] font-bold items-center gap-2 text-sm md:text-base w-full sm:w-auto justify-center">
                Falar com a Dra. Edilene <ArrowRight className="w-4 h-4" />
             </a>
           </motion.div>
