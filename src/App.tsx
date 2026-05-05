@@ -144,8 +144,8 @@ const Hero = () => {
           alt="Dra Edilene" 
           className="w-full h-full object-cover object-center md:object-[50%_20%] scale-[1.02]" 
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-white/20 md:via-white/70 md:to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-white to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/50 to-transparent md:via-white/40 md:w-[60%]" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" />
       </div>
 
       <div className="relative z-10 w-full px-6 md:px-12 lg:px-24 max-w-[1400px] mx-auto text-left pt-24 md:pt-32 pb-16 flex-1 flex flex-col justify-center">
