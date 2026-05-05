@@ -112,9 +112,9 @@ const Navbar = () => {
       <div className={`inline-flex items-center rounded-full bg-white/90 backdrop-blur-md px-1.5 md:px-2 py-1.5 md:py-2 transition-all max-w-[95vw] md:w-auto overflow-x-auto no-scrollbar ${scrolled ? 'shadow-lg shadow-black/5 border border-stroke' : 'border border-stroke/50'}`}>
         <div className="min-w-[36px] w-9 h-9 rounded-full bg-accent flex items-center justify-center font-display italic text-[15px] font-bold text-white shadow-[0_0_10px_rgba(37,99,235,0.3)]">EK</div>
         <div className="w-px h-5 bg-stroke mx-2 shrink-0" />
-        <div className="flex items-center space-x-1 shrink-0">
-          {["Início", "Sobre", "Diferenciais", "Depoimentos"].map((link, i) => (
-            <a key={link} href={`#${link.toLowerCase()}`} className={`text-xs sm:text-sm rounded-full px-3 py-1.5 transition-colors ${i===0 ? 'text-accent bg-blue-50 font-medium' : 'text-gray-600 hover:text-accent hover:bg-blue-50/50'}`}>
+        <div className="flex items-center space-x-0.5 md:space-x-1 shrink-0">
+          {["Início", "Sobre", "Diferenciais", "Avaliações"].map((link, i) => (
+            <a key={link} href={`#${link.toLowerCase() === 'avaliações' ? 'depoimentos' : link.toLowerCase()}`} className={`text-[10px] sm:text-sm rounded-full px-2 md:px-3 py-1.5 transition-colors ${i===0 ? 'text-accent bg-blue-50 font-medium' : 'text-gray-600 hover:text-accent hover:bg-blue-50/50'}`}>
               {link}
             </a>
           ))}
@@ -142,7 +142,7 @@ const Hero = () => {
         <img 
           src="/images/imag1.png" 
           alt="Dra Edilene" 
-          className="w-full h-full object-cover object-[50%_20%] scale-[0.99]" 
+          className="w-full h-full object-cover object-center md:object-[50%_20%] scale-[1.02]" 
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-white/20 md:via-white/70 md:to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-white to-transparent" />
