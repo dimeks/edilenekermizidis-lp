@@ -17,15 +17,28 @@
   }
 }
 
-/* Force Light Mode - Anti-Dark Mode Hack */
+/* Force Light Mode - Definitivo */
+:root {
+  color-scheme: light !important;
+  --light-bg: #FFFFFF;
+  --light-text: #0F172A;
+}
+
+html, body {
+  background-color: var(--light-bg) !important;
+  color: var(--light-text) !important;
+}
+
 @media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: light;
+  html {
+    filter: none !important;
   }
 }
 
-* {
-  -webkit-tap-highlight-color: transparent;
+/* Evita que navegadores Samsung/Android invertam cores de imagens */
+img, video, iframe {
+  filter: none !important;
+  background-color: transparent !important;
 }
 
 @layer utilities {
